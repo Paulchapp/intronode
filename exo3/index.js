@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-//var data = "New File Contents";
+var data = "New File Contents";
 
 // Calling the readFileSync() method
 // to read 'index.html' file
