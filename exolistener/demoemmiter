@@ -1,0 +1,10 @@
+const Logger = require(' ./emitter');
+const Logger = new Logger();
+
+Logger.on('messageRecu', function(payload) {
+
+    consol.Log('Message Recu, payload: ' , payload);
+
+});
+
+module.exports = Logger;
